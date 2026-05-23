@@ -1,0 +1,49 @@
+dimensions:
+  tech:
+    weight: 0.4
+    criteria:
+      - name: "基础扎实度"
+        description: "考察对CS基础知识(OS, 计网, DB等)的掌握广度与准确度"
+        max_score: 30
+      - name: "技术深度"
+        description: "对语言底层原理、框架机制的深入理解程度"
+        max_score: 35
+      - name: "项目实践与工程素养"
+        description: "真实项目踩坑经验、技术选型思考、难点攻克及性能优化思路"
+        max_score: 35
+  hr:
+    weight: 0.2
+    criteria:
+      - name: "STAR模型应用"
+        description: "回答行为问题是否展现出清晰的结构化表达（情境, 任务, 行动, 结果）"
+        max_score: 40
+      - name: "软技能展示"
+        description: "抗压能力、团队协作沟通能力、自我驱动力与复盘总结习惯"
+        max_score: 30
+      - name: "职业规划与匹配度"
+        description: "求职/深造动机、求稳或拼搏的个人意愿，与当前目标院校或企业的适配度"
+        max_score: 30
+  english:
+    weight: 0.15
+    criteria:
+      - name: "词汇与语法"
+        description: "词汇使用的广度与准确度，专业术语拼写读音无误，基础语法无原则性大错"
+        max_score: 35
+      - name: "发音与口语流利度"
+        description: "英语交流沟通是否顺畅，口音是否严重影响听感理解，语速与停顿是否自然"
+        max_score: 35
+      - name: "应答逻辑"
+        description: "全英文作答内容是否有充足内在逻辑和连贯性，主题是否切题"
+        max_score: 30
+  coding:
+    weight: 0.25
+    criteria:
+      - name: "正确性与边界处理"
+        description: "代码是否能无Bug执行，核心逻辑顺畅，极端与边界用例考虑周全"
+        max_score: 40
+      - name: "复杂度优化"
+        description: "算法的时间复杂度与空间复杂度是否经过推敲达到最优解"
+        max_score: 30
+      - name: "代码风格与规范"
+        description: "变量命名是否符合规范，业务逻辑模块化分层，及整体可读性"
+        max_score: 30
